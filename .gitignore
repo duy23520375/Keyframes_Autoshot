@@ -1,0 +1,23 @@
+# Bỏ các thư mục chứa dữ liệu / output nặng
+videos/
+videos_1/
+keyframes/
+
+# Bỏ môi trường ảo
+venv/
+
+# Bỏ output AutoShot (nếu không cần push CSV kết quả)
+AutoShot/scenes_csv/
+
+# Bỏ cache Python
+__pycache__/
+*.pyc
+
+# Bỏ config IDE (PyCharm, VSCode)
+.idea/
+.vscode/
+
+# Bỏ file nén / log / tạm
+*.zip
+*.rar
+*.log
